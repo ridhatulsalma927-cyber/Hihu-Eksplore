@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi Pantai Lampuuk Aceh Besar">
+  <defs>
+    <linearGradient id="coastSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E7490"/>
+      <stop offset="70%" stop-color="#7FD1CB"/>
+      <stop offset="100%" stop-color="#F7EFE0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#coastSky)"/>
+  <circle cx="620" cy="145" r="44" fill="#FBE6A2" opacity="0.9"/>
+  <!-- Karst Headland -->
+  <path d="M0 340 L110 215 L230 265 L310 355 L0 355 Z" fill="#134E4A"/>
+  <!-- Sea -->
+  <rect y="345" width="800" height="145" fill="#0D9488"/>
+  <path d="M0 445 Q230 415 490 455 T800 440 L800 495 L0 495 Z" fill="#99F6E4" opacity="0.45"/>
+  <!-- White Sand Crescent -->
+  <path d="M0 470 Q320 435 800 490 L800 600 L0 600 Z" fill="#F3EBDD"/>
+  <path d="M590 495 Q660 320 715 245" stroke="#1F3A32" stroke-width="10" fill="none"/>
+  <path d="M715 245 Q650 230 615 265 M715 245 Q685 190 645 205 M715 245 Q755 215 780 250" stroke="#0D6E52" stroke-width="8" fill="none" stroke-linecap="round"/>
+</svg>

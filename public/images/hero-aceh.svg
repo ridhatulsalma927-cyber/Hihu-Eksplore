@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Ilustrasi Masjid Raya Baiturrahman dan cakrawala Banda Aceh">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#073B2E"/>
+      <stop offset="55%" stop-color="#0E6B53"/>
+      <stop offset="100%" stop-color="#D9ECE4"/>
+    </linearGradient>
+    <linearGradient id="sunGlow" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#F6D88C" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#F6D88C" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pool" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B5A49"/>
+      <stop offset="100%" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="880" cy="230" r="190" fill="url(#sunGlow)"/>
+  <circle cx="880" cy="230" r="52" fill="#F9E5A9" opacity="0.88"/>
+  <path d="M0 420 Q280 355 560 400 T1200 385 L1200 500 L0 500 Z" fill="#0A4F3E" opacity="0.45"/>
+  <path d="M0 445 Q350 400 720 435 T1200 425 L1200 510 L0 510 Z" fill="#083E31" opacity="0.7"/>
+  <!-- Minarets -->
+  <rect x="210" y="210" width="22" height="240" fill="#F8FAF9"/>
+  <path d="M206 210 L221 178 L236 210 Z" fill="#172320"/>
+  <rect x="968" y="210" width="22" height="240" fill="#F8FAF9"/>
+  <path d="M964 210 L979 178 L994 210 Z" fill="#172320"/>
+  <rect x="588" y="135" width="24" height="315" fill="#F8FAF9"/>
+  <path d="M582 135 L600 95 L618 135 Z" fill="#C59B38"/>
+  <!-- Main Mosque Facade & Black Domes -->
+  <rect x="275" y="345" width="650" height="110" fill="#F8FAF9"/>
+  <rect x="360" y="315" width="480" height="140" fill="#FFFFFF"/>
+  <!-- Domes -->
+  <path d="M510 315 C510 215 690 215 690 315 Z" fill="#15221E"/>
+  <path d="M598 215 L602 215 L600 190 Z" fill="#C59B38"/>
+  <path d="M375 335 C375 268 485 268 485 335 Z" fill="#1B2B26"/>
+  <path d="M715 335 C715 268 825 268 825 335 Z" fill="#1B2B26"/>
+  <path d="M285 355 C285 308 360 308 360 355 Z" fill="#1F322C"/>
+  <path d="M840 355 C840 308 915 308 915 355 Z" fill="#1F322C"/>
+  <!-- Arches -->
+  <g fill="#0D6E52" opacity="0.85">
+    <path d="M405 455 L405 390 Q425 365 445 390 L445 455 Z"/>
+    <path d="M468 455 L468 390 Q488 365 508 390 L508 455 Z"/>
+    <path d="M570 455 L570 380 Q600 345 630 380 L630 455 Z"/>
+    <path d="M692 455 L692 390 Q712 365 732 390 L732 455 Z"/>
+    <path d="M755 455 L755 390 Q775 365 795 390 L795 455 Z"/>
+  </g>
+  <!-- Courtyard & Reflecting Pool -->
+  <rect x="0" y="455" width="1200" height="220" fill="#E8F0ED"/>
+  <polygon points="310,485 890,485 960,675 240,675" fill="url(#pool)"/>
+  <!-- Reflection -->
+  <path d="M525 510 C525 585 675 585 675 510 Z" fill="#083B2E" opacity="0.55"/>
+  <line x1="420" y1="535" x2="780" y2="535" stroke="#8CE0CF" stroke-width="2" opacity="0.45"/>
+  <line x1="360" y1="575" x2="840" y2="575" stroke="#8CE0CF" stroke-width="2" opacity="0.35"/>
+  <line x1="310" y1="620" x2="890" y2="620" stroke="#F6D88C" stroke-width="1.5" opacity="0.35"/>
+  <!-- Aceh Geometric Border Frieze -->
+  <g stroke="#C59B38" stroke-width="1.5" fill="none" opacity="0.5">
+    <path d="M0 660 L1200 660"/>
+    <path d="M60 660 L75 645 L90 660 M140 660 L155 645 L170 660 M1030 660 L1045 645 L1060 660 M1110 660 L1125 645 L1140 660"/>
+  </g>
+</svg>

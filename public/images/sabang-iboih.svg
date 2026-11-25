@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi Pantai Iboih dan Pulau Rubiah Sabang">
+  <defs>
+    <linearGradient id="skyS" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E7490"/>
+      <stop offset="60%" stop-color="#4FB3BF"/>
+      <stop offset="100%" stop-color="#E6F4F1"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="100%" stop-color="#0A4F48"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#skyS)"/>
+  <circle cx="165" cy="145" r="46" fill="#FBE5A5" opacity="0.9"/>
+  <!-- Rubiah Island Silhouette -->
+  <path d="M430 330 Q530 225 650 280 Q740 295 800 325 L800 355 L430 355 Z" fill="#0B5345"/>
+  <path d="M0 325 Q95 255 215 315 L250 355 L0 355 Z" fill="#0D6E52"/>
+  <!-- Sea & Coral Reef Shallows -->
+  <rect y="345" width="800" height="255" fill="url(#sea)"/>
+  <ellipse cx="410" cy="445" rx="280" ry="60" fill="#2DD4BF" opacity="0.28"/>
+  <ellipse cx="290" cy="495" rx="180" ry="38" fill="#5EEAD4" opacity="0.24"/>
+  <!-- Traditional Boat -->
+  <path d="M275 405 L445 405 L418 432 L298 432 Z" fill="#FFFFFF"/>
+  <rect x="335" y="388" width="52" height="17" fill="#C59B38"/>
+  <line x1="250" y1="455" x2="500" y2="455" stroke="#FFFFFF" stroke-width="2" opacity="0.45"/>
+  <line x1="310" y1="520" x2="610" y2="520" stroke="#99F6E4" stroke-width="2" opacity="0.4"/>
+</svg>

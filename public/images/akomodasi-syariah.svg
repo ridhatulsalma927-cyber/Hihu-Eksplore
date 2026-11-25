@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi Hotel dan Penginapan Ramah Muslim di Aceh">
+  <defs>
+    <linearGradient id="hotelSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B4638"/>
+      <stop offset="100%" stop-color="#D9ECE5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#hotelSky)"/>
+  <rect y="435" width="800" height="165" fill="#E3ECE9"/>
+  <!-- Boutique Syariah Building -->
+  <rect x="165" y="160" width="470" height="275" fill="#FFFFFF"/>
+  <rect x="150" y="145" width="500" height="22" fill="#0D6E52"/>
+  <!-- Islamic Arches & Windows -->
+  <g fill="#0E7490" opacity="0.85">
+    <path d="M210 265 L210 215 Q235 190 260 215 L260 265 Z"/>
+    <path d="M300 265 L300 215 Q325 190 350 215 L350 265 Z"/>
+    <path d="M450 265 L450 215 Q475 190 500 215 L500 265 Z"/>
+    <path d="M540 265 L540 215 Q565 190 590 215 L590 265 Z"/>
+  </g>
+  <g fill="#124D3E">
+    <rect x="210" y="300" width="50" height="65" rx="4"/>
+    <rect x="300" y="300" width="50" height="65" rx="4"/>
+    <rect x="450" y="300" width="50" height="65" rx="4"/>
+    <rect x="540" y="300" width="50" height="65" rx="4"/>
+  </g>
+  <!-- Grand Entrance Arch -->
+  <path d="M365 435 L365 320 Q400 285 435 320 L435 435 Z" fill="#C59B38"/>
+  <path d="M378 435 L378 332 Q400 308 422 332 L422 435 Z" fill="#093D30"/>
+  <!-- Courtyard Pool -->
+  <rect x="235" y="470" width="330" height="65" rx="8" fill="#0E7490" opacity="0.85"/>
+</svg>

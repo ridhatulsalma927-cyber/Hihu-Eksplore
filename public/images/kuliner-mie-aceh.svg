@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi Kuliner Khas Mie Aceh dan Rempah">
+  <rect width="800" height="600" fill="#F3F7F5"/>
+  <rect x="60" y="60" width="680" height="480" rx="20" fill="#0E4F3E"/>
+  <circle cx="400" cy="315" r="165" fill="#FFFFFF"/>
+  <circle cx="400" cy="315" r="142" fill="#FBF4E4" stroke="#C59B38" stroke-width="3"/>
+  <!-- Spiced Noodles & Garnish -->
+  <path d="M300 325 Q350 265 400 320 T500 315" stroke="#B45309" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M315 350 Q370 295 425 345 T490 340" stroke="#D97706" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M325 295 Q385 250 440 295 T485 285" stroke="#9A3412" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <circle cx="355" cy="275" r="18" fill="#0D6E52"/>
+  <circle cx="445" cy="270" r="15" fill="#DC2626"/>
+  <ellipse cx="410" cy="355" rx="26" ry="15" fill="#EA580C"/>
+  <!-- Spice Bowls -->
+  <circle cx="170" cy="195" r="46" fill="#FFFFFF"/>
+  <circle cx="170" cy="195" r="32" fill="#0D6E52"/>
+  <circle cx="630" cy="435" r="46" fill="#FFFFFF"/>
+  <circle cx="630" cy="435" r="32" fill="#C59B38"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi Tugu Kilometer Nol Indonesia di Sabang">
+  <defs>
+    <linearGradient id="kmSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#09423B"/>
+      <stop offset="55%" stop-color="#0E7490"/>
+      <stop offset="100%" stop-color="#F2DFB3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#kmSky)"/>
+  <circle cx="595" cy="240" r="65" fill="#FCE7A8" opacity="0.85"/>
+  <!-- Ocean Horizon -->
+  <rect y="355" width="800" height="245" fill="#0B5F63"/>
+  <line x1="0" y1="385" x2="800" y2="385" stroke="#7DD3FC" stroke-width="1.5" opacity="0.35"/>
+  <!-- Cliff -->
+  <path d="M0 400 L290 400 L390 470 L450 600 L0 600 Z" fill="#17382F"/>
+  <path d="M0 420 L270 420 L355 480 L380 600 L0 600 Z" fill="#0D6E52"/>
+  <!-- Monument Pillars & Ring -->
+  <rect x="175" y="185" width="22" height="225" fill="#F8FAF9"/>
+  <rect x="235" y="185" width="22" height="225" fill="#F8FAF9"/>
+  <rect x="160" y="395" width="112" height="22" fill="#E5ECE9"/>
+  <circle cx="216" cy="175" r="36" fill="none" stroke="#C59B38" stroke-width="10"/>
+  <path d="M216 112 L222 140 L210 140 Z" fill="#C59B38"/>
+</svg>

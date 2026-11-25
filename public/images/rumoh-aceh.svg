@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi Rumoh Aceh dan Warisan Budaya">
+  <defs>
+    <linearGradient id="rumohBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B4F3E"/>
+      <stop offset="100%" stop-color="#DCEAE4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#rumohBg)"/>
+  <rect y="455" width="800" height="145" fill="#17382F"/>
+  <!-- Stilts -->
+  <g fill="#5C3A21">
+    <rect x="210" y="340" width="16" height="130"/>
+    <rect x="305" y="340" width="16" height="130"/>
+    <rect x="400" y="340" width="16" height="130"/>
+    <rect x="495" y="340" width="16" height="130"/>
+    <rect x="575" y="340" width="16" height="130"/>
+  </g>
+  <!-- House Body -->
+  <rect x="190" y="245" width="420" height="100" fill="#3E2723"/>
+  <rect x="215" y="265" width="370" height="60" fill="#4E342E"/>
+  <!-- Gold Pinto Aceh Carvings -->
+  <g stroke="#C59B38" stroke-width="2" fill="none">
+    <rect x="235" y="275" width="75" height="40"/>
+    <path d="M235 295 L272 275 L310 295 L272 315 Z"/>
+    <rect x="360" y="275" width="80" height="40"/>
+    <path d="M360 295 L400 275 L440 295 L400 315 Z"/>
+    <rect x="490" y="275" width="75" height="40"/>
+    <path d="M490 295 L527 275 L565 295 L527 315 Z"/>
+  </g>
+  <!-- Steep Gabled Roof -->
+  <polygon points="145,250 400,115 655,250" fill="#1B2A25"/>
+  <polygon points="175,245 400,132 625,245" fill="#0D6E52" opacity="0.35"/>
+  <path d="M400 95 L412 115 L388 115 Z" fill="#C59B38"/>
+</svg>

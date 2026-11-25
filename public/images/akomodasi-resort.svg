@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi Resort Ramah Muslim Tepi Pantai Sabang">
+  <defs>
+    <linearGradient id="resSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E7490"/>
+      <stop offset="100%" stop-color="#E5F4F1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#resSky)"/>
+  <rect y="360" width="800" height="240" fill="#0D9488"/>
+  <!-- Seaside Villas -->
+  <path d="M120 385 L120 295 L280 295 L280 385 Z" fill="#FFFFFF"/>
+  <polygon points="100,295 200,225 300,295" fill="#0B4F3E"/>
+  <rect x="175" y="320" width="50" height="65" fill="#C59B38"/>
+  <path d="M460 395 L460 280 L655 280 L655 395 Z" fill="#FFFFFF"/>
+  <polygon points="440,280 558,200 675,280" fill="#0B4F3E"/>
+  <rect x="530" y="315" width="56" height="80" fill="#0E7490"/>
+  <!-- Wooden Pier -->
+  <rect x="260" y="435" width="280" height="22" fill="#7C4D2B"/>
+  <rect x="290" y="457" width="12" height="75" fill="#5C3A21"/>
+  <rect x="498" y="457" width="12" height="75" fill="#5C3A21"/>
+</svg>

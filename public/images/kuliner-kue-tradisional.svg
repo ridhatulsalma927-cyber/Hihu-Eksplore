@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi Kue Tradisional dan UMKM Kuliner Aceh">
+  <rect width="800" height="600" fill="#F2F6F4"/>
+  <rect x="85" y="75" width="630" height="450" rx="24" fill="#0F4C3A"/>
+  <!-- Serving Platter -->
+  <ellipse cx="400" cy="340" rx="235" ry="115" fill="#FFFFFF"/>
+  <ellipse cx="400" cy="340" rx="205" ry="95" fill="#FAF6EE" stroke="#C59B38" stroke-width="3"/>
+  <!-- Kue Adee & Timphan Banana Leaf Wraps -->
+  <rect x="260" y="280" width="120" height="70" rx="10" fill="#D99B26"/>
+  <rect x="275" y="292" width="90" height="46" rx="6" fill="#F5C451"/>
+  <polygon points="415,365 535,310 565,355 445,410" fill="#0D6E52"/>
+  <polygon points="400,320 515,270 538,305 422,355" fill="#15803D"/>
+  <!-- Decorative Gold Motif -->
+  <path d="M190 155 L220 135 L250 155 L220 175 Z" fill="#C59B38" opacity="0.8"/>
+  <path d="M550 155 L580 135 L610 155 L580 175 Z" fill="#C59B38" opacity="0.8"/>
+</svg>

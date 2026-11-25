@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi Kopi Arabika Gayo Dataran Tinggi Aceh">
+  <rect width="800" height="600" fill="#13332B"/>
+  <path d="M0 430 Q260 330 520 390 T800 360 L800 600 L0 600 Z" fill="#0D6E52" opacity="0.45"/>
+  <!-- Ceramic Cup & Saucer -->
+  <ellipse cx="400" cy="430" rx="165" ry="34" fill="#E6ECEA"/>
+  <path d="M295 255 L505 255 L475 410 Q400 435 325 410 Z" fill="#FFFFFF"/>
+  <path d="M500 280 Q555 280 555 330 Q555 375 488 375" fill="none" stroke="#FFFFFF" stroke-width="18"/>
+  <ellipse cx="400" cy="255" rx="105" ry="26" fill="#4A2C1D"/>
+  <ellipse cx="400" cy="255" rx="85" ry="18" fill="#6F442E"/>
+  <!-- Steam -->
+  <path d="M360 205 Q340 165 365 130" stroke="#F6D88C" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M405 195 Q425 155 400 115" stroke="#F6D88C" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M448 205 Q430 168 455 135" stroke="#F6D88C" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- Coffee Beans -->
+  <ellipse cx="220" cy="470" rx="22" ry="14" transform="rotate(-25 220 470)" fill="#5C3A21"/>
+  <ellipse cx="580" cy="465" rx="22" ry="14" transform="rotate(20 580 465)" fill="#5C3A21"/>
+</svg>

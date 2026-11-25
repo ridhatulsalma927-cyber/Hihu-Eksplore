@@ -1,0 +1,771 @@
+export const REGIONS = [
+  'Banda Aceh',
+  'Sabang',
+  'Aceh Besar',
+  'Aceh Tengah',
+  'Bener Meriah',
+];
+
+export const CATEGORIES = [
+  'Religi',
+  'Alam',
+  'Bahari',
+  'Sejarah',
+  'Budaya',
+  'Kuliner',
+];
+
+export const HALAL_STATUSES = [
+  'Tersertifikasi Halal Resmi',
+  'Proses Verifikasi',
+  'Klaim Mandiri Pelaku Usaha',
+];
+
+export const SEED_DESTINATIONS = [
+  {
+    id: 'dest-01',
+    nama: 'Masjid Raya Baiturrahman',
+    namaEn: 'Baiturrahman Grand Mosque',
+    kategori: 'Religi',
+    wilayah: 'Banda Aceh',
+    deskripsi:
+      'Ikon spiritual dan arsitektur kebanggaan masyarakat Aceh sejak era Kesultanan Aceh. Memiliki tujuh kubah hitam megah, payung elektrik pelataran, dan kolam pemantul yang tenang untuk beribadah serta berwisata religi.',
+    deskripsiEn:
+      'The iconic spiritual landmark of Aceh dating back to the Sultanate era, featuring seven black domes, grand courtyard canopies, and serene reflecting pools for prayer and reflection.',
+    imageUrl: '/src/assets/images/dest_mosque_aceh_1795590639134.jpg',
+    alamat: 'Jl. Moh. Jam No.1, Kampung Baru, Baiturrahman, Banda Aceh',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Masjid+Raya+Baiturrahman+Banda+Aceh',
+    estimasiBiaya: 0,
+    fasilitas: ['Area parkir luas', 'Payung pelataran', 'Peminjaman busana sopan', 'Taman kota'],
+    fasilitasIbadah: [
+      'Ruang shalat utama berkapasitas ribuan jamaah',
+      'Tempat wudhu terpisah pria & wanita',
+      'Akses mukena, sarung, dan Al-Qur’an gratis',
+      'Akses ramah kursi roda',
+    ],
+    unggulan: true,
+    statusVerifikasi: 'Terverifikasi Referensi Publik (Data Simulasi Biaya)',
+    koordinatPeta: { x: 185, y: 155 },
+  },
+  {
+    id: 'dest-02',
+    nama: 'Museum Tsunami Aceh',
+    namaEn: 'Aceh Tsunami Museum',
+    kategori: 'Sejarah',
+    wilayah: 'Banda Aceh',
+    deskripsi:
+      'Museum edukatif dan monumen peringatan peristiwa tsunami Samudra Hindia 2004 yang dirancang dengan filosofi Rumoh Aceh dan tari Saman. Menyajikan ruang renungan, galeri edukasi mitigasi bencana, serta arsitektur ikonik.',
+    deskripsiEn:
+      'An architectural memorial and disaster-education museum honoring the 2004 Indian Ocean tsunami, inspired by Rumoh Aceh stilt houses and Saman choreography.',
+    imageUrl: '/src/assets/images/dest_tsunami_museum_1795590640183.jpg',
+    alamat: 'Jl. Sultan Iskandar Muda No.3, Sukaramai, Baiturrahman, Banda Aceh',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Museum+Tsunami+Aceh+Banda+Aceh',
+    estimasiBiaya: 15000,
+    fasilitas: ['Galeri audiovisual', 'Pemandu museum', 'Ruang edukasi kebencanaan', 'Parkir'],
+    fasilitasIbadah: [
+      'Mushola bersih di lantai dasar',
+      'Tempat wudhu terpisah',
+      'Jarak 350m dari Masjid Raya Baiturrahman',
+    ],
+    unggulan: true,
+    statusVerifikasi: 'Terverifikasi Referensi Publik (Simulasi Tiket)',
+    koordinatPeta: { x: 172, y: 168 },
+  },
+  {
+    id: 'dest-03',
+    nama: 'Kapal PLTD Apung',
+    namaEn: 'PLTD Apung Floating Vessel Monument',
+    kategori: 'Sejarah',
+    wilayah: 'Banda Aceh',
+    deskripsi:
+      'Kapal pembangkit listrik seberat 2.600 ton yang terbawa gelombang tsunami sejauh beberapa kilometer ke daratan Punge Blang Cut, kini menjadi monumen edukasi sejarah dan ketangguhan warga Aceh.',
+    deskripsiEn:
+      'A 2,600-ton power-plant vessel carried inland by the 2004 tsunami, preserved today as an open-air historical monument and resilience landmark.',
+    imageUrl: '/src/assets/images/dest_tsunami_museum_1795590640183.jpg',
+    alamat: 'Punge Blang Cut, Kec. Jaya Baru, Banda Aceh',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Kapal+PLTD+Apung+Banda+Aceh',
+    estimasiBiaya: 10000,
+    fasilitas: ['Anjungan pandang dek atas', 'Papan informasi sejarah', 'Kios suvenir UMKM'],
+    fasilitasIbadah: [
+      'Mushola di area taman monumen',
+      'Tempat wudhu tersedia di sisi gerbang',
+    ],
+    unggulan: false,
+    statusVerifikasi: 'Belum Terverifikasi Langsung — Informasi Referensi Publik',
+    koordinatPeta: { x: 164, y: 178 },
+  },
+  {
+    id: 'dest-04',
+    nama: 'Museum Aceh & Rumoh Aceh',
+    namaEn: 'Aceh Museum & Traditional Rumoh Aceh',
+    kategori: 'Budaya',
+    wilayah: 'Banda Aceh',
+    deskripsi:
+      'Kompleks pelestarian sejarah dan budaya Aceh yang menampilkan rumah adat panggung Rumoh Aceh berukir motif khas, koleksi manuskrip Islam Nusantara, serta lonceng bersejarah Cakra Donya.',
+    deskripsiEn:
+      'Cultural heritage complex preserving an authentic carved Rumoh Aceh timber stilt house, Islamic manuscripts, and the historic Cakra Donya bell.',
+    imageUrl: '/src/assets/images/dest_rumoh_aceh_1795590641231.jpg',
+    alamat: 'Jl. Sultan Alauddin Mahmudsyah No.10, Peuniti, Banda Aceh',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Museum+Aceh+Banda+Aceh',
+    estimasiBiaya: 10000,
+    fasilitas: ['Rumoh Aceh asli', 'Galeri etnografi', 'Taman rindang', 'Toilet umum'],
+    fasilitasIbadah: [
+      'Mushola terawat di halaman kompleks',
+      'Dekat dengan masjid kawasan Peuniti',
+    ],
+    unggulan: false,
+    statusVerifikasi: 'Terverifikasi Referensi Publik (Simulasi Tiket)',
+    koordinatPeta: { x: 196, y: 168 },
+  },
+  {
+    id: 'dest-05',
+    nama: 'Taman Sari Gunongan & Putroe Phang',
+    namaEn: 'Gunongan & Putroe Phang Heritage Park',
+    kategori: 'Budaya',
+    wilayah: 'Banda Aceh',
+    deskripsi:
+      'Situs taman kerajaan peninggalan Sultan Iskandar Muda dari abad ke-17 dengan bangunan putih bertingkat Gunongan dan gerbang Pinto Khop yang menjadi inspirasi motif ornamen Aceh.',
+    deskripsiEn:
+      'A 17th-century royal heritage garden built during the reign of Sultan Iskandar Muda, featuring the sculpted white Gunongan pavilion and Pinto Khop gate.',
+    imageUrl: '/src/assets/images/dest_rumoh_aceh_1795590641231.jpg',
+    alamat: 'Sukaramai, Baiturrahman, Kota Banda Aceh',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Gunongan+Banda+Aceh',
+    estimasiBiaya: 5000,
+    fasilitas: ['Jalur pejalan kaki', 'Area foto sejarah', 'Papan narasi Kesultanan Aceh'],
+    fasilitasIbadah: [
+      'Mushola kecil di area taman',
+      'Berdekatan dengan masjid Baiturrahman & Jamik',
+    ],
+    unggulan: false,
+    statusVerifikasi: 'Belum Terverifikasi Langsung — Informasi Referensi Publik',
+    koordinatPeta: { x: 178, y: 185 },
+  },
+  {
+    id: 'dest-06',
+    nama: 'Pantai Iboih & Taman Laut Rubiah',
+    namaEn: 'Iboih Beach & Rubiah Marine Park',
+    kategori: 'Bahari',
+    wilayah: 'Sabang',
+    deskripsi:
+      'Teluk berair jernih kebiruan di Pulau Weh yang terkenal untuk snorkeling ramah keluarga di sekitar Pulau Rubiah. Tersedia perahu wisata lokal serta warung makan halal pesisir.',
+    deskripsiEn:
+      'A crystal-clear turquoise bay on Weh Island renowned for family-friendly snorkeling around Rubiah Island, local boat charters, and coastal halal eateries.',
+    imageUrl: '/src/assets/images/dest_sabang_iboih_1795590640334.jpg',
+    alamat: 'Iboih, Kec. Sukakarya, Kota Sabang, Pulau Weh',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Pantai+Iboih+Sabang',
+    estimasiBiaya: 150000,
+    fasilitas: ['Dermaga perahu kaca', 'Penyewaan alat snorkel', 'Kamar bilas tertutup', 'Kafe pesisir'],
+    fasilitasIbadah: [
+      'Mushola tepi pantai dekat dermaga Iboih',
+      'Ruang bilas & ganti tertutup terpisah pria/wanita',
+      'Warung makan lokal bebas alkohol',
+    ],
+    unggulan: true,
+    statusVerifikasi: 'Terverifikasi Referensi Publik (Simulasi Sewa Perahu)',
+    koordinatPeta: { x: 112, y: 66 },
+  },
+  {
+    id: 'dest-07',
+    nama: 'Tugu Kilometer Nol Indonesia',
+    namaEn: 'Kilometer Zero Monument of Indonesia',
+    kategori: 'Alam',
+    wilayah: 'Sabang',
+    deskripsi:
+      'Titik geografis paling barat Nusantara yang berdiri di atas tebing batu kapur menghadap pertemuan Samudra Hindia dan Selat Malaka. Menawarkan panorama matahari terbenam yang dramatis.',
+    deskripsiEn:
+      'The westernmost landmark of Indonesia perched on coastal limestone cliffs overlooking the confluence of the Indian Ocean and Malacca Strait.',
+    imageUrl: '/src/assets/images/dest_kilometer_nol_1795590640384.jpg',
+    alamat: 'Iboih, Kec. Sukakarya, Kota Sabang',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Tugu+Kilometer+Nol+Sabang',
+    estimasiBiaya: 20000,
+    fasilitas: ['Menara pandang tugu', 'Area parkir kendaraan', 'Kios UMKM suvenir Sabang'],
+    fasilitasIbadah: [
+      'Mushola tersedia di kompleks tugu atas',
+      'Tempat wudhu dan toilet umum',
+    ],
+    unggulan: true,
+    statusVerifikasi: 'Terverifikasi Referensi Publik (Data Simulasi)',
+    koordinatPeta: { x: 92, y: 54 },
+  },
+  {
+    id: 'dest-08',
+    nama: 'Pantai Sumur Tiga Sabang',
+    namaEn: 'Sumur Tiga Beach Sabang',
+    kategori: 'Bahari',
+    wilayah: 'Sabang',
+    deskripsi:
+      'Garis pantai pasir putih panjang berbingkai deretan pohon kelapa dan benteng sejarah pesisir. Suasana tenang dan cocok untuk rekreasi keluarga ramah Muslim.',
+    deskripsiEn:
+      'A serene stretch of white-sand shoreline framed by coconut palms and coastal heritage remnants, ideal for relaxed Muslim-friendly family retreats.',
+    imageUrl: '/src/assets/images/dest_lampuuk_beach_1795590641357.jpg',
+    alamat: 'Ie Meulee, Kec. Sukajaya, Kota Sabang',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Pantai+Sumur+Tiga+Sabang',
+    estimasiBiaya: 15000,
+    fasilitas: ['Gazebo santai', 'Area bermain pasir', 'Kuliner seafood pesisir'],
+    fasilitasIbadah: [
+      'Mushola di kawasan penginapan sekitar pantai',
+      'Akses mudah ke Masjid Agung Babussalam Sabang',
+    ],
+    unggulan: false,
+    statusVerifikasi: 'Belum Terverifikasi Langsung — Informasi Referensi Publik',
+    koordinatPeta: { x: 145, y: 78 },
+  },
+  {
+    id: 'dest-09',
+    nama: 'Pantai Lampuuk & Lhoknga',
+    namaEn: 'Lampuuk & Lhoknga Coastline',
+    kategori: 'Bahari',
+    wilayah: 'Aceh Besar',
+    deskripsi:
+      'Pantai pasir putih melengkung dengan latar tebing karst hijau dan ombak Samudra Hindia yang memukau, hanya sekitar 25 menit dari Banda Aceh.',
+    deskripsiEn:
+      'A sweeping white-sand crescent backed by lush limestone cliffs along the Indian Ocean, just 25 minutes south of Banda Aceh.',
+    imageUrl: '/src/assets/images/dest_lampuuk_beach_1795590641357.jpg',
+    alamat: 'Meunasah Balee, Kec. Lhoknga, Kab. Aceh Besar',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Pantai+Lampuuk+Aceh+Besar',
+    estimasiBiaya: 25000,
+    fasilitas: ['Pondok keluarga beratap', 'Konservasi penyu musiman', 'Kios ikan bakar'],
+    fasilitasIbadah: [
+      'Mushola pesisir & Masjid Rahmatullah Lampuuk di dekat gerbang pantai',
+      'Tempat bilas tertutup terpisah',
+    ],
+    unggulan: true,
+    statusVerifikasi: 'Terverifikasi Referensi Publik (Simulasi Tiket & Gazebo)',
+    koordinatPeta: { x: 148, y: 205 },
+  },
+  {
+    id: 'dest-10',
+    nama: 'Masjid Rahmatullah Lampuuk',
+    namaEn: 'Rahmatullah Mosque Lampuuk',
+    kategori: 'Religi',
+    wilayah: 'Aceh Besar',
+    deskripsi:
+      'Masjid bersejarah di pesisir Lhoknga yang tetap berdiri kokoh saat tsunami 2004 menerjang wilayah sekitarnya, menjadi saksi keteguhan iman dan destinasi ziarah edukatif.',
+    deskripsiEn:
+      'Historic coastal mosque in Lhoknga that remained standing amidst the 2004 tsunami, serving today as a cherished site of prayer and remembrance.',
+    imageUrl: '/src/assets/images/dest_mosque_aceh_1795590639134.jpg',
+    alamat: 'Desa Lampuuk, Kec. Lhoknga, Kab. Aceh Besar',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Masjid+Rahmatullah+Lampuuk',
+    estimasiBiaya: 0,
+    fasilitas: ['Ruang foto sejarah sebelum/sesudah 2004', 'Halaman parkir luas', 'Pelataran teduh'],
+    fasilitasIbadah: [
+      'Ruang shalat utama sejuk dan terawat',
+      'Tempat wudhu terpisah',
+      'Perlengkapan shalat tersedia untuk musafir',
+    ],
+    unggulan: false,
+    statusVerifikasi: 'Terverifikasi Referensi Publik',
+    koordinatPeta: { x: 158, y: 218 },
+  },
+  {
+    id: 'dest-11',
+    nama: 'Benteng Indra Patra',
+    namaEn: 'Indra Patra Coastal Fortress',
+    kategori: 'Sejarah',
+    wilayah: 'Aceh Besar',
+    deskripsi:
+      'Benteng batu pesisir kuno peninggalan kerajaan pra-Islam yang berlanjut dimanfaatkan sebagai basis pertahanan maritim pada era Kesultanan Aceh di tepi Selat Malaka.',
+    deskripsiEn:
+      'Ancient coastal stone fortress overlooking the Malacca Strait, later utilized as a maritime defense post during the Aceh Sultanate.',
+    imageUrl: '/src/assets/images/dest_lampuuk_beach_1795590641357.jpg',
+    alamat: 'Desa Ladong, Kec. Masjid Raya, Kab. Aceh Besar',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Benteng+Indra+Patra+Aceh+Besar',
+    estimasiBiaya: 10000,
+    fasilitas: ['Struktur benteng batu kuno', 'Akses pantai berbatu', 'Area parkir'],
+    fasilitasIbadah: [
+      'Mushola sederhana dekat pintu masuk Desa Ladong',
+      'Masjid jami desa berjarak ±400 meter',
+    ],
+    unggulan: false,
+    statusVerifikasi: 'Belum Terverifikasi Langsung — Informasi Referensi Publik',
+    koordinatPeta: { x: 245, y: 150 },
+  },
+  {
+    id: 'dest-12',
+    nama: 'Danau Lut Tawar',
+    namaEn: 'Lake Lut Tawar Highlands',
+    kategori: 'Alam',
+    wilayah: 'Aceh Tengah',
+    deskripsi:
+      'Danau tektonik sejuk di ketinggian ±1.200 mdpl yang dikelilingi pegunungan Gayo. Wisatawan dapat menyusuri dermaga, menyantap ikan depik khas Gayo halal, dan menikmati kabut pagi.',
+    deskripsiEn:
+      'A serene tectonic highland lake at 1,200 meters elevation surrounded by the Gayo mountains, famed for cool morning mist and halal local Lake Depik dishes.',
+    imageUrl: '/src/assets/images/dest_gayo_highlands_1795590640695.jpg',
+    alamat: 'Takengon, Kec. Lut Tawar, Kab. Aceh Tengah',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Danau+Lut+Tawar+Takengon',
+    estimasiBiaya: 35000,
+    fasilitas: ['Dermaga perahu wisata', 'Spot piknik tepi danau', 'Kedai kopi Gayo tepi air'],
+    fasilitasIbadah: [
+      'Mushola di beberapa titik dermaga & penginapan tepi danau',
+      'Masjid Agung Ruhama Takengon berjarak 10 menit',
+    ],
+    unggulan: true,
+    statusVerifikasi: 'Terverifikasi Referensi Publik (Simulasi Biaya Dermaga)',
+    koordinatPeta: { x: 438, y: 295 },
+  },
+  {
+    id: 'dest-13',
+    nama: 'Puncak Pantan Terong',
+    namaEn: 'Pantan Terong Highland Viewpoint',
+    kategori: 'Alam',
+    wilayah: 'Aceh Tengah',
+    deskripsi:
+      'Bukit pengamatan panorama 360 derajat kota Takengon, hamparan kebun kopi arabika, dan cermin Danau Lut Tawar dari ketinggian lebih dari 1.800 mdpl.',
+    deskripsiEn:
+      'Highland viewpoint above 1,800 meters offering sweeping panoramas of Takengon, Arabica coffee estates, and Lake Lut Tawar below.',
+    imageUrl: '/src/assets/images/dest_gayo_highlands_1795590640695.jpg',
+    alamat: 'Kec. Bebesen, Kab. Aceh Tengah',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Pantan+Terong+Takengon',
+    estimasiBiaya: 20000,
+    fasilitas: ['Anjungan pandang berkabin', 'Kedai seduh kopi hangat', 'Area parkir'],
+    fasilitasIbadah: [
+      'Mushola kayu di area puncak untuk jamaah',
+      'Air wudhu pegunungan yang jernih',
+    ],
+    unggulan: true,
+    statusVerifikasi: 'Belum Terverifikasi Langsung — Informasi Referensi Publik',
+    koordinatPeta: { x: 410, y: 318 },
+  },
+  {
+    id: 'dest-14',
+    nama: 'Agrowisata Kebun Kopi Arabika Gayo & Bur Telege',
+    namaEn: 'Gayo Arabica Coffee Agro-Park & Bur Telege',
+    kategori: 'Kuliner',
+    wilayah: 'Aceh Tengah',
+    deskripsi:
+      'Pengalaman memetik ceri kopi arabika Gayo di dataran tinggi, mengenal proses pascapanen basah khas Aceh, serta mencicipi seduhan kopi spesialti langsung dari petani lokal.',
+    deskripsiEn:
+      'Interactive coffee-origin experience in the Gayo highlands featuring Arabica cherry picking, traditional wet-hulled processing tours, and single-origin tastings.',
+    imageUrl: '/src/assets/images/cul_kopi_gayo_1795590642290.jpg',
+    alamat: 'Bale Bujang / Kampung Hakim Bale, Takengon, Aceh Tengah',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Bur+Telege+Takengon+Aceh+Tengah',
+    estimasiBiaya: 50000,
+    fasilitas: ['Tur kebun kopi', 'Sesi cupping kopi Gayo', 'Galeri produk UMKM biji kopi'],
+    fasilitasIbadah: [
+      'Mushola di kawasan wisata Bur Telege',
+      'Produk kopi murni tanpa bahan aditif non-halal',
+    ],
+    unggulan: false,
+    statusVerifikasi: 'Terverifikasi Referensi Publik (Simulasi Paket Tur)',
+    koordinatPeta: { x: 425, y: 274 },
+  },
+  {
+    id: 'dest-15',
+    nama: 'Lembah Burni Telong & Kawah Pante Raya',
+    namaEn: 'Burni Telong Foothills & Coffee Plateau',
+    kategori: 'Alam',
+    wilayah: 'Bener Meriah',
+    deskripsi:
+      'Kawasan dataran tinggi berudara sejuk di kaki Gunung Burni Telong, terkenal dengan jalur pendakian ramah pemula, kebun kopi keluarga, dan ketenangan desa adat Gayo.',
+    deskripsiEn:
+      'Cool volcanic foothills beneath Mount Burni Telong offering scenic coffee estates, gentle highland trails, and tranquil Gayo village hospitality.',
+    imageUrl: '/src/assets/images/dest_gayo_highlands_1795590640695.jpg',
+    alamat: 'Kec. Timang Gajah & Redelong, Kab. Bener Meriah',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Gunung+Burni+Telong+Bener+Meriah',
+    estimasiBiaya: 40000,
+    fasilitas: ['Pos pendakian lokal', 'Taman bunga dataran tinggi', 'Warung kopi desa'],
+    fasilitasIbadah: [
+      'Mushola di pos basecamp Rembune / Pante Raya',
+      'Masjid kecamatan di sepanjang jalur utama Redelong',
+    ],
+    unggulan: true,
+    statusVerifikasi: 'Belum Terverifikasi Langsung — Informasi Referensi Publik',
+    koordinatPeta: { x: 422, y: 232 },
+  },
+];
+
+export const SEED_CULINARY = [
+  {
+    id: 'kul-01',
+    nama: 'Mie Aceh Kepiting Warung Rempah Serambi (Simulasi)',
+    namaEn: 'Aceh Crab Spiced Noodles — Serambi Spice Kitchen (Demo)',
+    kategori: 'Kuliner Berat',
+    wilayah: 'Banda Aceh',
+    harga: 48000,
+    imageUrl: '/src/assets/images/cul_mie_aceh_1795590641312.jpg',
+    statusSertifikasiHalal: 'Tersertifikasi Halal Resmi',
+    sumberVerifikasi: 'BPJPH / LPPOM MUI Aceh (Nomor Katalog Simulasi #AC-1102)',
+    kontak: '6281200010101',
+    deskripsi:
+      'Mie kuning tebal racikan rempah kapulaga, jintan, dan kari Aceh dengan kepiting segar. Disajikan bersama acar bawang merah dan emping melinjo.',
+    deskripsiEn:
+      'Thick yellow noodles stir-fried in rich Aceh cardamom and cumin curry spices with fresh crab, served with pickled shallots and melinjo crackers.',
+  },
+  {
+    id: 'kul-02',
+    nama: 'Kopi Arabika Gayo Sangrai UMKM Pante (Simulasi)',
+    namaEn: 'Gayo Highland Arabica Roast — Pante UMKM (Demo)',
+    kategori: 'Kopi & Oleh-oleh',
+    wilayah: 'Aceh Tengah',
+    harga: 85000,
+    imageUrl: '/src/assets/images/cul_kopi_gayo_1795590642290.jpg',
+    statusSertifikasiHalal: 'Tersertifikasi Halal Resmi',
+    sumberVerifikasi: 'Sertifikat Halal Self-Declare BPJPH (Simulasi #GY-2045)',
+    kontak: '6281200010202',
+    deskripsi:
+      'Biji kopi arabika single-origin ketinggian 1.500 mdpl dengan catatan rasa cokelat hangat, rempah ringan, dan keasaman seimbang. Kemasan 250g.',
+    deskripsiEn:
+      'Single-origin 1,500m highland Arabica beans featuring warm cocoa, gentle spice, and balanced acidity in a 250g pack.',
+  },
+  {
+    id: 'kul-03',
+    nama: 'Kuah Pliek U Dapur Indatu (Simulasi)',
+    namaEn: 'Traditional Kuah Pliek U — Indatu Kitchen (Demo)',
+    kategori: 'Kuliner Tradisional',
+    wilayah: 'Aceh Besar',
+    harga: 35000,
+    imageUrl: '/src/assets/images/cul_mie_aceh_1795590641312.jpg',
+    statusSertifikasiHalal: 'Klaim Mandiri Pelaku Usaha',
+    sumberVerifikasi: 'Belum terverifikasi sertifikat resmi — Klaim bahan halal lokal oleh UMKM',
+    kontak: '6281200010303',
+    deskripsi:
+      'Gulai sayuran khas Aceh berisi melinjo, nangka muda, kacang panjang, dan kelapa fermentasi (pliek u) yang kaya aroma daun kari.',
+    deskripsiEn:
+      'Authentic Acehnese vegetable curry enriched with fermented coconut oilcake (pliek u), young jackfruit, and fragrant curry leaves.',
+  },
+  {
+    id: 'kul-04',
+    nama: 'Kue Adee & Timphan Daun Pisang (Simulasi)',
+    namaEn: 'Kue Adee & Banana-Leaf Timphan (Demo)',
+    kategori: 'Kudapan UMKM',
+    wilayah: 'Banda Aceh',
+    harga: 40000,
+    imageUrl: '/src/assets/images/cul_kue_aceh_1795590642423.jpg',
+    statusSertifikasiHalal: 'Tersertifikasi Halal Resmi',
+    sumberVerifikasi: 'LPPOM MUI / BPJPH Aceh (Simulasi #UMKM-308)',
+    kontak: '6281200010404',
+    deskripsi:
+      'Paket oleh-oleh kue tradisional singkong panggang lembut bertabur bawang goreng manis (Kue Adee) dan timphan srikaya berbalut daun pisang muda.',
+    deskripsiEn:
+      'Assorted traditional heritage cakes featuring baked cassava Kue Adee and sweet srikaya-filled Timphan wrapped in young banana leaves.',
+  },
+  {
+    id: 'kul-05',
+    nama: 'Sate Gurita & Ikan Bakar Pesisir Iboih (Simulasi)',
+    namaEn: 'Iboih Coastal Grilled Fish & Octopus Satay (Demo)',
+    kategori: 'Kuliner Bahari',
+    wilayah: 'Sabang',
+    harga: 55000,
+    imageUrl: '/src/assets/images/cul_mie_aceh_1795590641312.jpg',
+    statusSertifikasiHalal: 'Proses Verifikasi',
+    sumberVerifikasi: 'Dalam pendampingan sertifikasi halal UMKM Sabang (Simulasi)',
+    kontak: '6281200010505',
+    deskripsi:
+      'Sate gurita bumbu kacang-kecap rempah dan ikan karang bakar segar dengan sambal kecap jeruk nipis khas pesisir Pulau Weh.',
+    deskripsiEn:
+      'Char-grilled reef fish and spiced octopus skewers paired with tangy lime soy chili relish along Weh Island’s shore.',
+  },
+  {
+    id: 'kul-06',
+    nama: 'Ayam Tangkap Rempah Lhoknga (Simulasi)',
+    namaEn: 'Lhoknga Crispy Curry-Leaf Ayam Tangkap (Demo)',
+    kategori: 'Kuliner Berat',
+    wilayah: 'Aceh Besar',
+    harga: 42000,
+    imageUrl: '/src/assets/images/cul_mie_aceh_1795590641312.jpg',
+    statusSertifikasiHalal: 'Tersertifikasi Halal Resmi',
+    sumberVerifikasi: 'BPJPH RPH & Resto Aceh Besar (Simulasi #AB-512)',
+    kontak: '6281200010606',
+    deskripsi:
+      'Ayam kampung goreng garing berselimut daun temurui (daun kari), daun pandan, dan cabai hijau renyah yang harum.',
+    deskripsiEn:
+      'Crispy free-range spiced chicken buried beneath fragrant fried curry leaves, pandan strips, and whole green chilies.',
+  },
+  {
+    id: 'kul-07',
+    nama: 'Kopi Sanger & Kupi Khop Meulaboh-Banda (Simulasi)',
+    namaEn: 'Aceh Sanger & Inverted Kupi Khop (Demo)',
+    kategori: 'Minuman Khas',
+    wilayah: 'Banda Aceh',
+    harga: 18000,
+    imageUrl: '/src/assets/images/cul_kopi_gayo_1795590642290.jpg',
+    statusSertifikasiHalal: 'Klaim Mandiri Pelaku Usaha',
+    sumberVerifikasi: 'Belum bersertifikat resmi — Menggunakan susu kental & kopi tersertifikasi',
+    kontak: '6281200010707',
+    deskripsi:
+      'Sajian kopi saring tradisional Aceh dengan takaran susu lembut (Sanger) serta teknik gelas terbalik khas pantai barat Aceh.',
+    deskripsiEn:
+      'Classic cloth-pulled Acehnese coffee blended with silky condensed milk (Sanger) alongside the iconic inverted-cup Kupi Khop.',
+  },
+  {
+    id: 'kul-08',
+    nama: 'Madu Hutan & Teh Cascara Burni Telong (Simulasi)',
+    namaEn: 'Burni Telong Cascara Tea & Forest Honey (Demo)',
+    kategori: 'Oleh-oleh UMKM',
+    wilayah: 'Bener Meriah',
+    harga: 75000,
+    imageUrl: '/src/assets/images/cul_kue_aceh_1795590642423.jpg',
+    statusSertifikasiHalal: 'Proses Verifikasi',
+    sumberVerifikasi: 'Pengajuan sertifikasi halal PIRT UMKM Bener Meriah (Simulasi)',
+    kontak: '6281200010808',
+    deskripsi:
+      'Kulit ceri kopi arabika kering (cascara) yang diseduh bersama madu hutan dataran tinggi Bener Meriah, kaya antioksidan alami.',
+    deskripsiEn:
+      'Sun-dried Gayo Arabica coffee-cherry tea (cascara) paired with pure highland wildflower honey from Bener Meriah.',
+  },
+];
+
+export const SEED_ACCOMMODATIONS = [
+  {
+    id: 'ako-01',
+    nama: 'Serambi Syariah Boutique Hotel (Simulasi)',
+    wilayah: 'Banda Aceh',
+    hargaPerMalam: 520000,
+    fasilitas: ['Wi-Fi', 'Sarapan untuk 2 tamu', 'Parkir pribadi', 'Resepsionis 24 jam'],
+    fasilitasRamahMuslim: [
+      'Penunjuk arah kiblat di setiap kamar',
+      'Sajadah, mukena, dan Al-Qur’an tersedia di kamar',
+      'Kebijakan tamu pasangan/keluarga sesuai aturan syariah Aceh',
+      'Dekat Masjid Raya Baiturrahman (5 menit jalan kaki)',
+    ],
+    statusSertifikasiHalal: 'Fasilitas Ramah Muslim (Dapur dalam proses verifikasi halal resmi)',
+    imageUrl: '/src/assets/images/stay_syariah_hotel_1795590642816.jpg',
+    kontak: '6281300020101',
+    deskripsi:
+      'Penginapan tenang bergaya arsitektur Aceh modern di pusat kota Banda Aceh dengan akses berjalan kaki menuju kawasan wisata religi.',
+    deskripsiEn:
+      'Calm contemporary Acehnese boutique hotel in central Banda Aceh within walking distance of the Grand Mosque.',
+  },
+  {
+    id: 'ako-02',
+    nama: 'Weh Coral Muslim-Friendly Villa (Simulasi)',
+    wilayah: 'Sabang',
+    hargaPerMalam: 680000,
+    fasilitas: ['Balkon menghadap laut', 'AC', 'Antar-jemput dermaga', 'Penyewaan pelampung'],
+    fasilitasRamahMuslim: [
+      'Area bilas tertutup terpisah setelah berenang',
+      'Mushola bersama menghadap laut',
+      'Perlengkapan shalat & penanda kiblat di vila',
+      'Lingkungan bebas minuman beralkohol',
+    ],
+    statusSertifikasiHalal: 'Fasilitas Ramah Muslim (Bukan sertifikat hotel halal resmi)',
+    imageUrl: '/src/assets/images/stay_sabang_villa_1795590643507.jpg',
+    kontak: '6281300020202',
+    deskripsi:
+      'Vila kayu ramah keluarga menghadap perairan biru Iboih dan Sumur Tiga dengan privasi teras terjaga.',
+    deskripsiEn:
+      'Family-oriented wooden villas overlooking Sabang’s turquoise waters with private shaded verandas.',
+  },
+  {
+    id: 'ako-03',
+    nama: 'Lampuuk Coastal Homestay Syariah (Simulasi)',
+    wilayah: 'Aceh Besar',
+    hargaPerMalam: 340000,
+    fasilitas: ['Kamar keluarga luas', 'AC & air hangat', 'Halaman berumput', 'Parkir aman'],
+    fasilitasRamahMuslim: [
+      'Mushola keluarga di halaman',
+      'Arah kiblat & sajadah bersih setiap kamar',
+      'Dapur bebas bahan babi/alkohol dengan menu lokal halal',
+    ],
+    statusSertifikasiHalal: 'Fasilitas Ramah Muslim (Klaim dapur ramah Muslim)',
+    imageUrl: '/src/assets/images/stay_syariah_hotel_1795590642816.jpg',
+    kontak: '6281300020303',
+    deskripsi:
+      'Penginapan hangat milik warga lokal dekat Pantai Lampuuk dan Masjid Rahmatullah untuk liburan keluarga.',
+    deskripsiEn:
+      'Warm locally-run family homestay minutes from Lampuuk Beach and historic Rahmatullah Mosque.',
+  },
+  {
+    id: 'ako-04',
+    nama: 'Lut Tawar Highland Eco-Lodge (Simulasi)',
+    wilayah: 'Aceh Tengah',
+    hargaPerMalam: 460000,
+    fasilitas: ['Pemanas air', 'Teras pemandangan danau', 'Tungku kopi hangat', 'Parkir'],
+    fasilitasRamahMuslim: [
+      'Arah kiblat & sajadah tebal untuk udara sejuk',
+      'Air wudhu hangat di kamar mandi',
+      'Ruang shalat berjamaah untuk rombongan',
+    ],
+    statusSertifikasiHalal: 'Fasilitas Ramah Muslim (Restoran tersertifikasi halal lokal simulasi)',
+    imageUrl: '/src/assets/images/stay_sabang_villa_1795590643507.jpg',
+    kontak: '6281300020404',
+    deskripsi:
+      'Penginapan kabin kayu tepi Danau Lut Tawar yang menawarkan ketenangan udara pegunungan Gayo.',
+    deskripsiEn:
+      'Lakeside timber lodge on the banks of Lake Lut Tawar offering crisp Gayo highland air.',
+  },
+  {
+    id: 'ako-05',
+    nama: 'Redelong Coffee Estate Cottage (Simulasi)',
+    wilayah: 'Bener Meriah',
+    hargaPerMalam: 390000,
+    fasilitas: ['Kamar 2 tempat tidur', 'Wi-Fi', 'Tur kebun kopi pagi', 'Air hangat'],
+    fasilitasRamahMuslim: [
+      'Sajadah & penanda kiblat standar',
+      'Jam tenang malam & lingkungan keluarga',
+      'Dekat masjid besar kecamatan Redelong',
+    ],
+    statusSertifikasiHalal: 'Fasilitas Ramah Muslim (Tidak mengklaim sertifikasi halal resmi)',
+    imageUrl: '/src/assets/images/stay_syariah_hotel_1795590642816.jpg',
+    kontak: '6281300020505',
+    deskripsi:
+      'Pondok asri di tengah perkebunan kopi Bener Meriah dengan pemandangan Gunung Burni Telong.',
+    deskripsiEn:
+      'Quiet garden cottage nestled among Bener Meriah coffee farms with views of Mount Burni Telong.',
+  },
+  {
+    id: 'ako-06',
+    nama: 'Darussalam Heritage Inn (Simulasi)',
+    wilayah: 'Banda Aceh',
+    hargaPerMalam: 410000,
+    fasilitas: ['AC', 'Wi-Fi', 'Ruang duduk tamu', 'Layanan laundry'],
+    fasilitasRamahMuslim: [
+      'Mushola ber-AC di lantai 1',
+      'Kompas kiblat & Al-Qur’an terjemahan',
+      'Sarapan khas Aceh dari mitra UMKM bersertifikat halal',
+    ],
+    statusSertifikasiHalal: 'Fasilitas Ramah Muslim (Mitra katering halal tersertifikasi)',
+    imageUrl: '/src/assets/images/stay_syariah_hotel_1795590642816.jpg',
+    kontak: '6281300020606',
+    deskripsi:
+      'Penginapan praktis bagi wisatawan sejarah dan keluarga yang berkunjung ke Banda Aceh.',
+    deskripsiEn:
+      'Practical and welcoming stay for history travelers and families exploring Banda Aceh.',
+  },
+];
+
+export const SEED_PACKAGES = [
+  {
+    id: 'pak-01',
+    nama: 'Jejak Serambi Mekkah & Memori Sejarah',
+    namaEn: 'Serambi Mekkah Heritage & Spiritual Trail',
+    durasi: 2,
+    daftarDestinasi: ['dest-01', 'dest-02', 'dest-03', 'dest-04', 'dest-09'],
+    estimasiBiaya: 1150000,
+    deskripsi:
+      'Paket 2 hari di Banda Aceh dan Aceh Besar untuk ziarah Masjid Raya Baiturrahman, edukasi Museum Tsunami, Rumoh Aceh, dan senja di Pantai Lampuuk.',
+    deskripsiEn:
+      'Two-day Banda Aceh & Aceh Besar trail covering Baiturrahman Grand Mosque, Tsunami Museum, Rumoh Aceh, and sunset at Lampuuk Beach.',
+    minat: ['Religi', 'Sejarah', 'Budaya'],
+    wilayahUtama: 'Banda Aceh',
+  },
+  {
+    id: 'pak-02',
+    nama: 'Eksplorasi Bahari Sabang & Kilometer Nol',
+    namaEn: 'Sabang Marine Sanctuary & Zero Kilometer Escape',
+    durasi: 3,
+    daftarDestinasi: ['dest-01', 'dest-06', 'dest-07', 'dest-08'],
+    estimasiBiaya: 2350000,
+    deskripsi:
+      'Perjalanan 3 hari menyeberang ke Pulau Weh untuk snorkeling ramah keluarga di Iboih–Rubiah, mengunjungi Tugu Kilometer Nol, dan bersantai di Pantai Sumur Tiga.',
+    deskripsiEn:
+      'Three-day island crossing to Sabang for Rubiah reef snorkeling, Kilometer Zero Monument, and Sumur Tiga coastal relaxation.',
+    minat: ['Bahari', 'Alam', 'Religi'],
+    wilayahUtama: 'Sabang',
+  },
+  {
+    id: 'pak-03',
+    nama: 'Dataran Tinggi Gayo, Danau Lut Tawar & Kopi',
+    namaEn: 'Gayo Highlands, Lake Lut Tawar & Coffee Origin',
+    durasi: 3,
+    daftarDestinasi: ['dest-12', 'dest-13', 'dest-14', 'dest-15'],
+    estimasiBiaya: 1950000,
+    deskripsi:
+      'Menyusuri sejuknya Takengon dan Bener Meriah selama 3 hari: panorama Pantan Terong, tepi Danau Lut Tawar, agrowisata kopi arabika, dan kaki Burni Telong.',
+    deskripsiEn:
+      'Three cool days across Takengon and Bener Meriah featuring Pantan Terong vistas, Lake Lut Tawar, Arabica coffee estates, and Burni Telong foothills.',
+    minat: ['Alam', 'Kuliner'],
+    wilayahUtama: 'Aceh Tengah',
+  },
+  {
+    id: 'pak-04',
+    nama: 'Jelajah Sehari Pesisir & Kuliner Aceh Besar',
+    namaEn: 'One-Day Aceh Besar Coast & Heritage Bite',
+    durasi: 1,
+    daftarDestinasi: ['dest-09', 'dest-10', 'dest-11'],
+    estimasiBiaya: 550000,
+    deskripsi:
+      'Rute ringkas 1 hari menyusuri Masjid Rahmatullah Lampuuk, Pantai Lampuuk, dan Benteng Indra Patra disertai wisata kuliner Aceh Besar.',
+    deskripsiEn:
+      'Compact one-day coastal circuit visiting Rahmatullah Mosque, Lampuuk Beach, and Indra Patra Fortress with Acehnese coastal cuisine.',
+    minat: ['Bahari', 'Religi', 'Sejarah'],
+    wilayahUtama: 'Aceh Besar',
+  },
+  {
+    id: 'pak-05',
+    nama: 'Grand Tour Aceh 5 Hari: Kota, Pulau & Pegunungan',
+    namaEn: '5-Day Grand Aceh: City, Island & Highlands',
+    durasi: 5,
+    daftarDestinasi: ['dest-01', 'dest-02', 'dest-06', 'dest-07', 'dest-09', 'dest-12', 'dest-14'],
+    estimasiBiaya: 4100000,
+    deskripsi:
+      'Perjalanan lengkap 5 hari menggabungkan warisan religi Banda Aceh, taman laut Sabang, pantai Aceh Besar, hingga kopi dataran tinggi Aceh Tengah.',
+    deskripsiEn:
+      'Complete five-day expedition uniting Banda Aceh spiritual landmarks, Sabang coral reefs, Aceh Besar beaches, and Gayo coffee highlands.',
+    minat: ['Religi', 'Bahari', 'Alam', 'Sejarah', 'Kuliner'],
+    wilayahUtama: 'Banda Aceh',
+  },
+];
+
+export const SEED_ITINERARY = {
+  id: 'itin-default',
+  namaPerjalanan: 'Eksplorasi Serambi Mekkah & Sabang 3 Hari',
+  tanggalMulai: '2026-12-10',
+  jumlahHari: 3,
+  jumlahWisatawan: 2,
+  akomodasiId: 'ako-01',
+  estimasiKonsumsiHarian: 120000,
+  estimasiTransport: 450000,
+  daftarAktivitas: [
+    {
+      id: 'act-1',
+      hari: 1,
+      itemId: 'dest-01',
+      tipe: 'destinasi',
+      judul: 'Masjid Raya Baiturrahman',
+      wilayah: 'Banda Aceh',
+      estimasiBiaya: 0,
+      waktu: '08:30',
+    },
+    {
+      id: 'act-2',
+      hari: 1,
+      itemId: 'dest-02',
+      tipe: 'destinasi',
+      judul: 'Museum Tsunami Aceh',
+      wilayah: 'Banda Aceh',
+      estimasiBiaya: 15000,
+      waktu: '11:00',
+    },
+    {
+      id: 'act-3',
+      hari: 1,
+      itemId: 'dest-09',
+      tipe: 'destinasi',
+      judul: 'Pantai Lampuuk & Lhoknga',
+      wilayah: 'Aceh Besar',
+      estimasiBiaya: 25000,
+      waktu: '16:00',
+    },
+    {
+      id: 'act-4',
+      hari: 2,
+      itemId: 'dest-06',
+      tipe: 'destinasi',
+      judul: 'Pantai Iboih & Taman Laut Rubiah',
+      wilayah: 'Sabang',
+      estimasiBiaya: 150000,
+      waktu: '09:30',
+    },
+    {
+      id: 'act-5',
+      hari: 2,
+      itemId: 'dest-07',
+      tipe: 'destinasi',
+      judul: 'Tugu Kilometer Nol Indonesia',
+      wilayah: 'Sabang',
+      estimasiBiaya: 20000,
+      waktu: '16:30',
+    },
+    {
+      id: 'act-6',
+      hari: 3,
+      itemId: 'dest-04',
+      tipe: 'destinasi',
+      judul: 'Museum Aceh & Rumoh Aceh',
+      wilayah: 'Banda Aceh',
+      estimasiBiaya: 10000,
+      waktu: '09:00',
+    },
+  ],
+};

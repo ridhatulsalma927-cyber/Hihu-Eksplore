@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi Danau Lut Tawar dan Dataran Tinggi Gayo">
+  <defs>
+    <linearGradient id="gayoSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0D4F41"/>
+      <stop offset="65%" stop-color="#539887"/>
+      <stop offset="100%" stop-color="#E7F2EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gayoSky)"/>
+  <!-- Mist & Mountain Ridges -->
+  <path d="M0 320 L145 190 L290 275 L465 155 L650 265 L800 185 L800 410 L0 410 Z" fill="#0E5A48" opacity="0.55"/>
+  <path d="M0 350 L185 245 L350 320 L550 225 L800 325 L800 420 L0 420 Z" fill="#094234"/>
+  <!-- Highland Lake -->
+  <rect y="390" width="800" height="210" fill="#0E7490"/>
+  <path d="M0 440 Q210 425 420 445 T800 435 L800 600 L0 600 Z" fill="#0A5468" opacity="0.6"/>
+  <line x1="180" y1="455" x2="640" y2="455" stroke="#BAE6FD" stroke-width="2" opacity="0.45"/>
+  <!-- Foreground Coffee Terraces -->
+  <path d="M0 485 Q240 465 440 545 L440 600 L0 600 Z" fill="#0D6E52"/>
+  <circle cx="110" cy="520" r="18" fill="#124737"/>
+  <circle cx="165" cy="535" r="22" fill="#124737"/>
+  <circle cx="230" cy="548" r="16" fill="#C59B38" opacity="0.8"/>
+</svg>

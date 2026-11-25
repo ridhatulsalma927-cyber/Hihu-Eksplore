@@ -1,0 +1,6 @@
+{
+  "name": "Hihu Eksplor",
+  "description": "Platform editorial wisata halal Aceh untuk menjelajahi destinasi ramah Muslim, kuliner bersertifikat halal, akomodasi syariah, peta interaktif Google Maps, dan perencana itinerary.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
